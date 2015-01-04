@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="Maths\FibonacciList.cs" />
     <Compile Include="Maths\PrimeFactorsList.cs" />
+    <Compile Include="Problems\Problem4.cs" />
     <Compile Include="Problems\Problem3.cs" />
     <Compile Include="Problems\IProblem.cs" />
     <Compile Include="Problems\Problem1.cs" />

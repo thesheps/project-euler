@@ -7,7 +7,7 @@ namespace ProjectEuler.Tests.Maths
     public class GivenPrimeFactorsList
     {
         [Test]
-        public void WhenGivenTestValues_PrimeFactorsAreCorrect()
+        public void WhenICalculateExample_PrimeFactorsAreCorrect()
         {
             var results = new PrimeFactorsList(13195);
             var values = new int[] 
