@@ -1,6 +1,7 @@
 ﻿using NUnit.Framework;
+using ProjectEuler.Problems;
 
-namespace ProjectEuler.Tests
+namespace ProjectEuler.Tests.Problems
 {
     [TestFixture]
     public abstract class GivenProblem<TProblem>
@@ -11,8 +12,7 @@ namespace ProjectEuler.Tests
             Problem = new TProblem();
         }
 
-        [Test]
-        [MaxTime(60000)]
+        [Test, Timeout(60000)]
         public void WhenISolveProblem_ThenResultIsCalculatedInLessThanAMinute()
         {
             Assert.Pass(string.Format("The answer is: {0}", Problem.Solve()));

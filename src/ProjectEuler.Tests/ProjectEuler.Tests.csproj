@@ -43,9 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GivenProblem.cs" />
-    <Compile Include="GivenProblem2.cs" />
-    <Compile Include="GivenProblem1.cs" />
+    <Compile Include="Maths\GivenPrimeFactorsList.cs" />
+    <Compile Include="Problems\GivenProblem.cs" />
+    <Compile Include="Maths\GivenFibonacciList.cs" />
+    <Compile Include="Problems\GivenProblem2.cs" />
+    <Compile Include="Problems\GivenProblem1.cs" />
+    <Compile Include="Problems\GivenProblem3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

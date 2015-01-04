@@ -1,9 +1,8 @@
 ﻿using NUnit.Framework;
 using ProjectEuler.Problems;
 
-namespace ProjectEuler.Tests
+namespace ProjectEuler.Tests.Problems
 {
-    [TestFixture]
     public class GivenProblem1 : GivenProblem<Problem1>
     {
         [TestCase(10, 23)]

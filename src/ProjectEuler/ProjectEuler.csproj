@@ -39,9 +39,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IProblem.cs" />
-    <Compile Include="Problem1.cs" />
-    <Compile Include="Problem2.cs" />
+    <Compile Include="Maths\FibonacciList.cs" />
+    <Compile Include="Maths\PrimeFactorsList.cs" />
+    <Compile Include="Problems\Problem3.cs" />
+    <Compile Include="Problems\IProblem.cs" />
+    <Compile Include="Problems\Problem1.cs" />
+    <Compile Include="Problems\Problem2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

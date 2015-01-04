@@ -1,10 +1,10 @@
 ﻿using NUnit.Framework;
-using ProjectEuler.Problems;
+using ProjectEuler.Maths;
 
-namespace ProjectEuler.Tests
+namespace ProjectEuler.Tests.Maths
 {
     [TestFixture]
-    public class GivenProblem2 : GivenProblem<Problem2>
+    public class GivenFibonacciList
     {
         [TestCase]
         public void WhenIGenerateTheFiveTenTerms_TheyAreCorrect()
@@ -14,8 +14,7 @@ namespace ProjectEuler.Tests
                 1, 2, 3, 5, 8
             };
 
-            var results = Problem.GetFibonacci(8);
-
+            var results = new FibonacciList(8);
             Assert.That(values, Is.EquivalentTo(results));
         }
 
@@ -27,8 +26,7 @@ namespace ProjectEuler.Tests
                 1, 2, 3, 5, 8, 13, 21, 34, 55, 89
             };
 
-            var results = Problem.GetFibonacci(89);
-
+            var results = new FibonacciList(89);
             Assert.That(values, Is.EquivalentTo(results));
         }
     }
